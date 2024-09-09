@@ -1,0 +1,69 @@
+:root {
+  --cool-dark: #061130;
+  --cool-blue: #1C4BC4;
+  --cool-light: #F4F6F8;
+  --cool-yellow: #FAFD61;
+}
+
+body {
+  background-color: var(--cool-dark);
+  color: var(--cool-light);
+}
+
+header {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: stretch;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.Services-button {
+  background-color: rgb(1, 1, 47);
+  color: yellow;
+}
+
+nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+nav h1 {
+  margin-right: 5vw;
+}
+
+nav a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+}
+
+footer .links {
+  background-color: #F4F6F8;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bottom {
+  background-color: #9cbbda;
+}
+
+h3 {
+  color: var(--cool-blue);
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-right {
+  align-items: right;
+}
+
+* {
+  outline: 1px dotted pink;
+  min-height: 15px;
+}
