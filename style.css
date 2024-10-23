@@ -5,65 +5,50 @@
   --cool-yellow: #FAFD61;
 }
 
+* {
+  font-family: sans-serif;
+}
+
 body {
-  background-color: var(--cool-dark);
-  color: var(--cool-light);
+  margin: 0;
+  background: var(--cool-dark);
+  justify-content: space between;
 }
 
 header {
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: stretch;
-  justify-content: space-between;
-  align-items: center;
   display: flex;
-}
-
-.Services-button {
-  background-color: rgb(1, 1, 47);
-  color: yellow;
+  justify-content: space-between;
+  padding: 1em;
 }
 
 nav {
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
 }
 
-nav h1 {
-  margin-right: 5vw;
-}
-
-nav a {
-  margin-right: 10px;
-  text-decoration: none;
-  color: white;
-  font-weight: 800;
-}
-
-footer .links {
-  background-color: #F4F6F8;
+nav button {
+  border: none;
   display: flex;
-  justify-content: space-evenly;
-}
-
-.bottom {
-  background-color: #9cbbda;
-}
-
-h3 {
+  justify-content: center;
   color: var(--cool-blue);
+}
+
+main {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  color: #F4F6F8;
+}
+
+footer {
+  background-color: grey;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: black;
 }
 
 .d-flex {
   display: flex;
-}
-
-.align-right {
-  align-items: right;
-}
-
-* {
-  outline: 1px dotted pink;
-  min-height: 15px;
 }
